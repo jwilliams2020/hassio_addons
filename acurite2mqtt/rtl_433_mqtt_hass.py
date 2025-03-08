@@ -476,14 +476,14 @@ mappings = {
         }
     },
 
-    "lux": {
+    "lx": {
         "device_type": "sensor",
-        "object_suffix": "lux",
+        "object_suffix": "lx",
         "config": {
             "device_class": "illuminance",
             "state_class":"measurement",
             "name": "Outside Luminancee",
-            "unit_of_measurement": "lux",
+            "unit_of_measurement": "lx",
             "value_template": "{{ value|int }}"
         }
     },
@@ -494,19 +494,19 @@ mappings = {
         "config": {
             "device_class": "illuminance",
             "name": "Outside Luminancee",
-            "unit_of_measurement": "lux",
+            "unit_of_measurement": "lx",
             "value_template": "{{ value|int }}"
         }
     },
 
     "brightness": {
         "device_type": "sensor",
-        "object_suffix": "lux",
+        "object_suffix": "lx",
         "config": {
             "device_class": "illuminance",
             "state_class":"measurement",
             "name": "Brightness",
-            "unit_of_measurement": "lux",
+            "unit_of_measurement": "lx",
             "value_template": "{{ value|int }}"
         }
     },
@@ -515,10 +515,10 @@ mappings = {
         "device_type": "sensor",
         "object_suffix": "uv",
         "config": {
-            "device_class": "irradiance",
+            "device_class": "AQI",
             "state_class":"measurement",
             "name": "UV Index",
-            "unit_of_measurement": "UV Index",
+            "unit_of_measurement": "",
             "value_template": "{{ value|int }}"
         }
     },
